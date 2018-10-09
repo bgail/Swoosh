@@ -173,6 +173,9 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="NgT-ON-b4j" eventType="touchUpInside" id="inM-7F-ZKv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjF-Ei-bzQ">
                                 <rect key="frame" x="16" y="30" width="46" height="30"/>
@@ -205,6 +208,9 @@
                             <constraint firstItem="f99-Dk-ecU" firstAttribute="leading" secondItem="JZE-aN-ml9" secondAttribute="leading" id="r23-fx-AKN"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="W0p-JR-ZbM" kind="show" identifier="skillVCSegue" id="qEl-aP-B9V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4np-PM-ILr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="htS-dH-1U0" userLabel="Exit" sceneMemberID="exit"/>
@@ -278,7 +284,7 @@
                                     <constraint firstAttribute="height" constant="50" id="RUK-gH-8BG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="22"/>
-                                <state key="normal" title="Next">
+                                <state key="normal" title="Done">
                                     <color key="titleColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
                                 </state>
                             </button>

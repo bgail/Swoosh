@@ -15,6 +15,10 @@ class LeagueVC: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func onNextTapped(_ sender: Any) {
+        print(" button is tapped! ----> ")
+        performSegue(withIdentifier: "skillVCSegue", sender: self)
+    }
     
 
     /*
