@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iz6-mC-wsd"/>
                         <viewControllerLayoutGuide type="bottom" id="5l5-zG-gXr"/>
@@ -92,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="135" y="133.09859154929578"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="Acv-JR-3gY">
             <objects>
-                <viewController id="NgT-ON-b4j" sceneMemberID="viewController">
+                <viewController id="NgT-ON-b4j" customClass="LeagueVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JbF-Kh-WlL"/>
                         <viewControllerLayoutGuide type="bottom" id="u2g-OQ-KtL"/>
@@ -211,10 +211,10 @@
             </objects>
             <point key="canvasLocation" x="840" y="133.09859154929578"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="jJH-HO-Sib">
             <objects>
-                <viewController id="W0p-JR-ZbM" sceneMemberID="viewController">
+                <viewController id="W0p-JR-ZbM" customClass="SkillVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ok0-AZ-sic"/>
                         <viewControllerLayoutGuide type="bottom" id="tIj-N6-eBP"/>
